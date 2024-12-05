@@ -1,0 +1,28 @@
+{
+  "name": "viewer-sdk-inmeta-test",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@aps_sdk/authentication": "^1.0.0-beta.3",
+    "@aps_sdk/model-derivative": "^1.0.0-beta.3",
+    "@types/forge-viewer": "^7.89.1",
+    "axios": "^1.7.8",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "express-formidable": "^1.2.0",
+    "forge-vuer": "^1.1.0",
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "typescript": "~5.6.2",
+    "vite": "^6.0.0",
+    "vue-tsc": "^2.1.10"
+  }
+}
